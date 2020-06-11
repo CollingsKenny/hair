@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/hair/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hair/static/js/main.cc95f9d2.chunk.js",
-    "main.js.map": "/hair/static/js/main.cc95f9d2.chunk.js.map",
+    "main.js": "/hair/static/js/main.ef70b88f.chunk.js",
+    "main.js.map": "/hair/static/js/main.ef70b88f.chunk.js.map",
     "runtime-main.js": "/hair/static/js/runtime-main.d923d234.js",
     "runtime-main.js.map": "/hair/static/js/runtime-main.d923d234.js.map",
-    "static/js/2.b62c08f4.chunk.js": "/hair/static/js/2.b62c08f4.chunk.js",
-    "static/js/2.b62c08f4.chunk.js.map": "/hair/static/js/2.b62c08f4.chunk.js.map",
+    "static/js/2.44664763.chunk.js": "/hair/static/js/2.44664763.chunk.js",
+    "static/js/2.44664763.chunk.js.map": "/hair/static/js/2.44664763.chunk.js.map",
     "index.html": "/hair/index.html",
-    "precache-manifest.ddac2be1c682aa742912e16e13b8af18.js": "/hair/precache-manifest.ddac2be1c682aa742912e16e13b8af18.js",
+    "precache-manifest.07d32bd3ea524ee81d18747359c2e7fe.js": "/hair/precache-manifest.07d32bd3ea524ee81d18747359c2e7fe.js",
     "service-worker.js": "/hair/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/hair/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b62c08f4.chunk.js.LICENSE.txt": "/hair/static/js/2.b62c08f4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hair/static/media/logo.5d5d9eef.svg"
+    "static/js/2.44664763.chunk.js.LICENSE.txt": "/hair/static/js/2.44664763.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d923d234.js",
-    "static/js/2.b62c08f4.chunk.js",
+    "static/js/2.44664763.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.cc95f9d2.chunk.js"
+    "static/js/main.ef70b88f.chunk.js"
   ]
 }
