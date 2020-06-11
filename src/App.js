@@ -33,9 +33,11 @@ function App() {
   const onOrdersChange = (file) => {
     let fileReader = new FileReader();
     fileReader.onload = () => {
-      csv.parse(fileReader.result, csvOptions, (err, data) => {
+      let fixResult = fileReader.result.replace(/"""/g, '"').substr(3);
+      console.log(fixResult);
+      console.log(fileReader.result);
+      csv.parse(fixResult, csvOptions, (err, data) => {
         setOrders(data);
-        //setOrders(mapReduce(data));
       });
     };
     fileReader.readAsBinaryString(file);
@@ -46,7 +48,6 @@ function App() {
     fileReader.onload = () => {
       csv.parse(fileReader.result, csvOptions, (err, data) => {
         setHairTypes(data);
-        //setOrders(mapReduce(data));
       });
     };
     fileReader.readAsBinaryString(file);
@@ -58,7 +59,7 @@ function App() {
         ...order,
         itemOptions: getProductOption(
           hairTypes.find(
-            (hairType) => hairType['Order Number'] === order['ï»¿Order #']
+            (hairType) => hairType['Order Number'] === order['Order #']
           )
         ),
       };
@@ -127,13 +128,12 @@ function App() {
         />
       </div>
       <div>
-        <button onClick={(e) => console.log(output)}> View Output</button>
-
+        <button onClick={(e) => console.log(output)}> log output</button>
         <button onClick={(e) => console.log(hairTypes[0]['Order Number'])}>
-          test hair types id
+          log hair types id
         </button>
-        <button onClick={(e) => console.log(orders[0]['ï»¿Order #'])}>
-          test order id
+        <button onClick={(e) => console.log(orders[0]['Order #'])}>
+          log order id
         </button>
       </div>
       <button
