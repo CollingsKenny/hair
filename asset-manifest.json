@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hair/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hair/static/js/main.ef70b88f.chunk.js",
-    "main.js.map": "/hair/static/js/main.ef70b88f.chunk.js.map",
+    "main.js": "/hair/static/js/main.78ba38f0.chunk.js",
+    "main.js.map": "/hair/static/js/main.78ba38f0.chunk.js.map",
     "runtime-main.js": "/hair/static/js/runtime-main.d923d234.js",
     "runtime-main.js.map": "/hair/static/js/runtime-main.d923d234.js.map",
     "static/js/2.44664763.chunk.js": "/hair/static/js/2.44664763.chunk.js",
     "static/js/2.44664763.chunk.js.map": "/hair/static/js/2.44664763.chunk.js.map",
     "index.html": "/hair/index.html",
-    "precache-manifest.07d32bd3ea524ee81d18747359c2e7fe.js": "/hair/precache-manifest.07d32bd3ea524ee81d18747359c2e7fe.js",
+    "precache-manifest.f5beed62d685f75defce2712ce25a626.js": "/hair/precache-manifest.f5beed62d685f75defce2712ce25a626.js",
     "service-worker.js": "/hair/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/hair/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.44664763.chunk.js.LICENSE.txt": "/hair/static/js/2.44664763.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d923d234.js",
     "static/js/2.44664763.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.ef70b88f.chunk.js"
+    "static/js/main.78ba38f0.chunk.js"
   ]
 }
